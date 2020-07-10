@@ -3,6 +3,6 @@ const Router = express()
 
 const flutterTestController = require('../controllers/flutter-test.controller')
 
-Router.get('/getFlutterData', flutterTestController.getFlutterData)
+Router.get('/', flutterTestController.getFlutterData)
 
 module.exports = Router

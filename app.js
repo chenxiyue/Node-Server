@@ -9,7 +9,7 @@ app.use('/getFlutterData', require('./server/routers/flutter-test.router'))
 
 const port = process.env.PORT || 3000
 app.listen(port, () => {
-    console.log('Server running @http://localhost:' + port)
+    console.log(`Server running @http://localhost:${port}`)
 })
 
 module.exports = app
