@@ -1,5 +1,3 @@
-const express = require('express')
-
 module.exports = {
     getHomeData: function (req, res, next) {
         const data = {

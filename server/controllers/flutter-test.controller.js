@@ -1,4 +1,3 @@
-const express = require('express')
 const config = require('../config')
 const base_url = 'http://' + config.IP + ':' + config.PORT + '/images/goods/'
 
